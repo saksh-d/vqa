@@ -2,7 +2,7 @@ import numpy as np
 from datasets import load_dataset
 from PIL import Image
 
-from config import PROJECT_ROOT, DATA_DIR, TRAIN_CSV, ANS_TXT, IMG_DIR, EVAL_CSV
+from config import TRAIN_CSV, ANS_TXT, IMG_DIR, EVAL_CSV
 
 # Load CSVs + answer space and add labels
 
